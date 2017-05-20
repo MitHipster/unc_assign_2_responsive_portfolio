@@ -34,7 +34,11 @@ figcaption:hover {
   padding: 15px 0;
 }
 
-@media (max-width: 799px) and (min-width: 540px), (min-width: 870px) {
+/* ================================
+    Media Queries
+   ================================ */
+
+@media (max-width: 769px) and (min-width: 520px), (min-width: 870px) {
   .portfolio-container {
     display: -webkit-box;
     display: -ms-flexbox;

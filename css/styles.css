@@ -163,7 +163,15 @@ footer {
     Media Queries
    ================================ */
 
-@media (min-width: 600px) {
+@media (min-width: 481px) {
+  #profile-image {
+    float: left;
+    width: 150px;
+    height: auto;
+  }
+}
+
+@media (min-width: 641px) {
   
   /* ================================
     Base Element Styles
@@ -249,7 +257,6 @@ footer {
   
   #profile-image {
     width: 185px;
-    padding-right: 10px;
   }
   
   .social-images {
@@ -262,7 +269,7 @@ footer {
   }
 }
 
-@media (min-width: 800px) {
+@media (min-width: 769px) {
   main {
     display: -webkit-box;
     display: -ms-flexbox;
